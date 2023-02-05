@@ -4,6 +4,6 @@
     <title>Démo du cours</title>
   </head>
   <body>
-  Hello!
+  Hello les M1 SDL+IHM !
   </body>
 </html>

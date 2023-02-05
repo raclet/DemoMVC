@@ -16,7 +16,8 @@ public class ConvertisseurServlet extends HttpServlet {
     /**
      * Méthode GET : on affiche le formulaire
      */
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request,
+                         HttpServletResponse response) throws ServletException, IOException {
         String maVue = "/convinput.jsp";
         RequestDispatcher dispatcher =
                 getServletContext().getRequestDispatcher(maVue);
@@ -26,9 +27,8 @@ public class ConvertisseurServlet extends HttpServlet {
     /**
      * Méthode POST : on affiche la conversion
      */
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-
+    protected void doPost(HttpServletRequest request,
+                          HttpServletResponse response) throws ServletException, IOException {
         // on devrait récuperer la valeur saisie par l'utilisateur
         String valCelsius = request.getParameter("celsius");
 
