@@ -7,6 +7,11 @@
 </head>
 <body>
 
+<h1>Bonjour tout le monde</h1>
+
+Nous sommes le <%= new java.util.Date().toString()%> et tout va bien.<br><br>
+
+
 Vous pouvez convertir une température exprimée en
 <b>Celsius</b> en une valeur exprimée en
 <b>Fahrenheit</b>.
